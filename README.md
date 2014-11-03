@@ -2,6 +2,8 @@
 
 > [PostCSS](https://github.com/postcss/postcss) plugin to prefix ePub3 properties.
 
+See the [EPUB 3 CSS Profile](http://www.idpf.org/epub/30/spec/epub30-contentdocs.html#sec-css-text) for more information.
+
 **Note:** This will leave the unprefixed property, there are other plugins to remove them if creating ePub3-only files.
 
 ## Installation
