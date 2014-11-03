@@ -22,5 +22,5 @@
   ],
   "devDependencies": {
     "postcss": "^2.2.5"
-  },
+  }
 }
