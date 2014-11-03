@@ -1,0 +1,26 @@
+{
+  "name": "postcss-epub",
+  "version": "2.1.0",
+  "description": "PostCSS plugin to prefix ePub3 properties",
+  "keywords": [
+    "css",
+    "postcss",
+    "postcss-plugins",
+    "epub",
+	"epub3"
+  ],
+  "author": "Ryc O'Chet",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Rycochet/postcss-epub.git"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ],
+  "devDependencies": {
+    "postcss": "^2.2.5"
+  },
+}
