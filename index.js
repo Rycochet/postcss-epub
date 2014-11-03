@@ -11,7 +11,11 @@ var postcss = require("postcss"),
 			"text-emphasis",
 			"text-emphasis-color",
 			"text-emphasis-style",
-			"word-break"
+			"word-break",
+			// writing modes
+			"writing-mode",
+			"text-orientation",
+			"text-combine-upright"
 		];
 
 /**
