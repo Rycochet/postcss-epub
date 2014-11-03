@@ -1,6 +1,6 @@
 {
   "name": "postcss-epub",
-  "version": "2.1.0",
+  "version": "2.2.5",
   "description": "PostCSS plugin to prefix ePub3 properties",
   "keywords": [
     "css",
