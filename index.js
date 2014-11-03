@@ -21,26 +21,11 @@ var postcss = require("postcss"),
 function plugin(style) {
 	style.eachDecl(function(decl) {
 		if (decl.value) {
-			try {
-				if (props.indexOf(decl.prop) >= 0) {
-					decl.parent.insertBefore(decl, decl.clone({prop: "-epub-" + decl.prop}));
-				}
-			} catch (err) {
-				err.message = gnuMessage(err.message, decl.source);
-				throw err;
+			if (props.indexOf(decl.prop) >= 0) {
+				decl.parent.insertBefore(decl, decl.clone({prop: "-epub-" + decl.prop}));
 			}
 		}
 	});
-}
-
-/**
- * return GNU style message
- *
- * @param {String} message
- * @param {Object} source
- */
-function gnuMessage(message, source) {
-	return (source ? (source.file ? source.file : "<css input>") + ":" + source.start.line + ":" + source.start.column : "") + " " + message;
 }
 
 /*
