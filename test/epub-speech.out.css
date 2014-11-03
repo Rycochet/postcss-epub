@@ -1,0 +1,19 @@
+stuff {
+	dont: care;
+	-epub-cue: none none;
+	cue: none none;
+	-epub-cue-before: none;
+	cue-before: none;
+	-epub-cue-after: none;
+	cue-after: none;
+	-epub-pause: weak;
+	pause: weak;
+	-epub-rest: medium;
+	rest: medium;
+	-epub-speak: normal;
+	speak: normal;
+	-epub-speak-as: normal;
+	speak-as: normal;
+	-epub-voice-family: neutral;
+	voice-family: neutral;
+}

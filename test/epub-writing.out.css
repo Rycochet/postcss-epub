@@ -1,0 +1,9 @@
+stuff {
+	dont: care;
+	-epub-writing-mode: vertical-lr;
+	writing-mode: vertical-lr;
+	-epub-text-orientation: rotate-right;
+	text-orientation: rotate-right;
+	-epub-text-combine-upright: digits;
+	text-combine-upright: digits;
+}

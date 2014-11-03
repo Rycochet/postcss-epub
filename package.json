@@ -7,7 +7,7 @@
     "postcss",
     "postcss-plugins",
     "epub",
-	"epub3"
+    "epub3"
   ],
   "author": "Ryc O'Chet",
   "license": "MIT",
@@ -21,6 +21,13 @@
     "index.js"
   ],
   "devDependencies": {
-    "postcss": "^2.2.5"
+    "postcss": "^2.2.5",
+    "test": "^0.6.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node ./test/test.js"
   }
 }
