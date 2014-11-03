@@ -5,6 +5,7 @@
  */
 var postcss = require("postcss"),
 		props = [
+			// text
 			"hyphens",
 			"line-break",
 			"text-align-last",
@@ -15,7 +16,16 @@ var postcss = require("postcss"),
 			// writing modes
 			"writing-mode",
 			"text-orientation",
-			"text-combine-upright"
+			"text-combine-upright",
+			// text to speech
+			"cue",
+			"cue-before",
+			"cue-after",
+			"pause",
+			"rest",
+			"speak",
+			"speak-as",
+			"voice-family"
 		];
 
 /**
