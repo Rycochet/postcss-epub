@@ -23,7 +23,7 @@ var css = fs.readFileSync("input.css", "utf8")
 
 // process css
 var output = postcss()
-  .use(epub())
+  .use(epub)
   .process(css)
   .css
 ```
