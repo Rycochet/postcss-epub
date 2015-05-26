@@ -1,11 +1,11 @@
 {
   "name": "postcss-epub",
-  "version": "2.2.5",
+  "version": "2.2.6",
   "description": "PostCSS plugin to prefix ePub3 properties",
   "keywords": [
     "css",
     "postcss",
-    "postcss-plugins",
+    "postcss-plugin",
     "epub",
     "epub3"
   ],
@@ -21,7 +21,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "postcss": "^2.2.5",
+    "postcss": "^4.1.11",
     "test": "^0.6.0"
   },
   "directories": {

@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'Fake Font';
+	src: local('Fake Font'),
+		url('path/to/font.woff') format('woff'),
+		url('path/to/font.ttf') format('truetype'),
+		url('path/to/font.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Fake Font';
+	font-weight: 700;
+	src: local('Fake Font Bold'),
+		url('path/to/font_bold.woff') format('woff'),
+		url('path/to/font_bold.ttf') format('truetype'),
+		url('path/to/font_bold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'Fake Font';
+	font-style: italic;
+	src: local('Fake Font Italic'),
+		url('path/to/font_italic.woff') format('woff'),
+		url('path/to/font_italic.ttf') format('truetype'),
+		url('path/to/font_italic.otf') format('opentype');
+}

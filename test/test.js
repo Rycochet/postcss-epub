@@ -9,7 +9,7 @@ function readFile(name) {
 
 function processFile(name) {
 	return postcss()
-			.use(epub)
+			.use(epub({strict:true}))
 			.process(readFile(name))
 			.css
 			.trim();
@@ -23,6 +23,9 @@ exports["test epub css \"writing\" output gets correct prefixes"] = function() {
 };
 exports["test epub css \"speech\" output gets correct prefixes"] = function() {
 	assert.equal(processFile("epub-speech"), readFile("epub-speech.out"), "CSS Speech not as expected");
+};
+exports["test epub css \"@font-face\" output gets correct properties and types"] = function() {
+	assert.equal(processFile("epub-font"), readFile("epub-font.out"), "CSS Font-Face not as expected");
 };
 
 if (module === require.main) {
