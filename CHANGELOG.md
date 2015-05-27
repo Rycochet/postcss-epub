@@ -2,6 +2,9 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [2.3.0] - 2015-05-27
+- Bumped minor version after it was pointed out that I changed the API
+
 ## [2.2.6] - 2015-05-26
 ### Changed
 - Updated to match [PostCSS Plugin Guidelines](https://github.com/postcss/postcss/blob/master/docs/guidelines/plugin.md)
