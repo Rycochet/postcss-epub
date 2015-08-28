@@ -21,7 +21,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "postcss": "^4.1.11",
+    "postcss": "^5.0.0",
     "test": "^0.6.0"
   },
   "directories": {
