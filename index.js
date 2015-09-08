@@ -71,12 +71,12 @@ module.exports = postcss.plugin("postcss-epub", function(opts) {
 			}
 		});
 		if (isFonts) {
-			css.eachAtRule(function(rule) {
+			css.walkAtRules(function(rule) {
 				if (rule.name === "font-face") {
 					var hasWeight = false,
 							hasStyle = false;
 
-					rule.eachDecl(function(decl) {
+					rule.walkDecls(function(decl) {
 						switch (decl.prop) {
 							case "src":
 								var i,
