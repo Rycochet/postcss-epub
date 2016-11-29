@@ -59,7 +59,7 @@ module.exports = postcss.plugin("postcss-epub", function(opts) {
 	 * @param {Object} css
 	 */
 	return function(css) {
-		css.eachDecl(function(decl) {
+		css.walkDecls(function(decl) {
 			if (decl.value) {
 				if (props.indexOf(decl.prop) >= 0) {
 					decl.parent.insertBefore(decl, decl.clone({
