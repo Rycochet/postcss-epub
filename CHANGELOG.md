@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [3.0.1] - 2016-11-29
+- Fixed obsolete PostCSS call
+
+## [3.0.0] - 2015-09-08
+- Updated to latest PostCSS
+
 ## [2.3.0] - 2015-05-27
 - Bumped minor version after it was pointed out that I changed the API
 
